@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 28, 2014, 8:14:36 PM
+    Author     : Student
+*/
+
+.pls{
+        background-image: url('../images/citypls.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.AboutMe{
+	background-color: rgba(0,0,0,.8);
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-top: 50px;
+	height: 575px;
+}
+.ceball{
+	text-align: center;
+	font-size: 85px;
+        padding-top: 10px;
+        height:75px;
+        margin:100px 100px 0px 410px;
+        display: inline-block;
+        color:#00cccc;
+        font-family: 'Play', sans-serif;
+}
+.ceball1{
+	text-align: center;
+	font-size: 65px;
+        padding-top: 5px;
+        height:65px;
+        margin:5px 100px 25px 415px;
+        display: inline-block;
+        color:#00cccc;
+        font-family: 'Play', sans-serif;
+}
+.bar{
+    height:2px;
+    background-color: white;
+    margin: 5px 250px 0px 250px;
+}
+.Jade{
+	text-align:left;
+        font-size: 27px;
+        padding-top: 10px;
+        height:65px;
+        margin:10px 100px 25px 350px;
+        display: inline-block;
+        color:whitesmoke;
+        font-family: 'Play', sans-serif;
+}
