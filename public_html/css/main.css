@@ -18,6 +18,7 @@ and open the template in the editor.
 	margin-right: 150px;
 	margin-left: 150px;
 	margin-top: 50px;
+        margin-bottom: 135px;
 	height: 575px;
 }
 .ceball{
@@ -50,8 +51,93 @@ and open the template in the editor.
         font-size: 27px;
         padding-top: 10px;
         height:65px;
-        margin:10px 100px 25px 350px;
+        margin:10px 100px 25px 310px;
         display: inline-block;
         color:whitesmoke;
         font-family: 'Play', sans-serif;
+}
+
+
+#menu-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #111;
+  border-radius: 5px;
+  z-index: 200;
+  &:after {
+    position: absolute;
+    content: "☰";
+    font-size: 42px;
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+  }
+  &:hover {
+    opacity: .8;
+  }
+}
+
+#menu-button.on {
+  &:after {
+    content: "x";
+  }
+}
+
+#overlay {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  opacity: 0;
+  background-color: rgba(0,0,0,0.4);
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#overlay.open {
+  display: block;
+}
+
+#hamburger-menu {
+  height: 0;
+  width: 0;
+  background: #111;
+  position: fixed;
+  top: 20px;
+  left: 90px;
+  z-index: 101;
+  overflow: hidden;
+  border-radius: 5px;
+
+  nav {
+    padding: 10px;
+    z-index: 101;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    a {
+      display: block;
+      padding: 10px;
+      height: 1em;
+      color: #CCC;
+      font-size: 1em;
+      line-height: 1em;
+      text-decoration: none;
+      overflow: hidden;
+
+      &:hover {
+        cursor: pointer;
+        color: #FFF;
+        background: rgba(255,255,255,0.02);
+      }
+    }
+  }
 }
