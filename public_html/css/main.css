@@ -17,8 +17,7 @@ and open the template in the editor.
 	background-color: rgba(0,0,0,.8);
 	margin-right: 150px;
 	margin-left: 150px;
-	margin-top: 20px;
-        margin-bottom: 135px;
+	margin-top: 50px;
 	height: 575px;
 }
 .ceball{
@@ -54,11 +53,73 @@ and open the template in the editor.
         margin:10px 100px 25px 310px;
         display: inline-block;
         color:whitesmoke;
-        font-family: 'Play', sans-serif;
+        
 }
-.nav{
-    height:50px;
-    background-color:yellow; 
-    margin-right: 150px;
-    margin-left: 150px;
+#link{
+    height:35px;
+    
+    font-size:35px;
+    padding:0px 15px 0px 15px;
+    margin:0px 93px 0px 80px;
+    display:inline-block;
+}
+    /* unvisited link */
+    a:link {
+        color:whitesmoke ;
+        text-decoration: none;
+    }
+
+    /* visited link */
+    a:visited {
+        
+        color:whitesmoke;
+        text-decoration: none;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: #00cccc;
+        text-decoration: underline;
+        
+}
+#link1{
+    height:35px;
+    
+    font-size:35px;
+    padding:0px 15px 0px 15px;
+    margin:15px 40px 0px 120px;
+    display:inline-block;
+}
+#link2{
+    height:35px;
+    
+    font-size:35px;
+    padding:20px 55px 0px 15px;
+    margin:15px 80px 0px 90px;
+    display:inline-block;
+}
+.body1{
+   background-image:url('../images/bridge.jpg');
+	background-repeat: no-repeat;
+ 
+	background-size: 100% 
+}
+.navbar{
+    	background-color: rgba(0,0,0,1);
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-top: 50px;
+	height: 150px;
+}
+.about{
+        background-color:whitesmoke;
+	margin-right: 150px;
+	margin-left: 150px;
+
+	height: 650px;
+}
+.writing{
+    background-color:burlywood;
+    padding:25px;
+    font-size:20px;
 }
