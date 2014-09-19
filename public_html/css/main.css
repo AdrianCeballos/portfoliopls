@@ -101,6 +101,7 @@ and open the template in the editor.
     }
     .section{
         width:100%;
+        height:525px;
     }
     .bg{
         height: 100%;
