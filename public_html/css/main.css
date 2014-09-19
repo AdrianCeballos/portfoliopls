@@ -24,8 +24,8 @@ and open the template in the editor.
     
 }
 .section{
-    height:600px;
-    padding:50px;
+    height:575px;
+    padding:30px;
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
     box-sizing: border-box;
@@ -68,7 +68,7 @@ and open the template in the editor.
     -webkit-box-sizing: border-box; 
     box-sizing: border-box;
     text-align:center;
-    padding-top:225px;
+    padding-top:125px;
     font-size:100px;
     color:white;
 }
