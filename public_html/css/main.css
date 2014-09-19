@@ -35,7 +35,32 @@ and open the template in the editor.
     background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
+#link{
+    height:35px;
+    font-size:25px;
+    padding:0px 65px 0px 65px;
+    display:inline-block;
+    margin-left: 25px;
+}
+    /* unvisited link */
+    a:link {
+        color:white ;
+        text-decoration: none;
+    }
 
+    /* visited link */
+    a:visited {
+        
+        color:white;
+        text-decoration: none;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: #00cccc;
+        text-decoration: underline;
+        
+}
 .name{
     height:450px;
     -moz-box-sizing: border-box; 
